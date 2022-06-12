@@ -11,8 +11,6 @@ function distanceTravelledInFeet(start, destination) {
   return distanceTravelled * 264;
 }
 
-console.log("Distance", distanceTravelledInFeet(34, 38));
-
 function calculatesFarePrice(start, destination) {
   const distanceInFeet = distanceTravelledInFeet(start, destination);
 
@@ -23,5 +21,3 @@ function calculatesFarePrice(start, destination) {
   }
   return 25;
 }
-
-console.log(distanceFromHqInBlocks(10));
